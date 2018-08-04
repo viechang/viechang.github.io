@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2018%2F08%2F04%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Testme]]></title>
+    <url>%2F2018%2F08%2F03%2FTestme%2F</url>
+    <content type="text"><![CDATA[Rust code:123456789101112131415161718192021222324252627282930313233343536373839404142434445464748/// The main object of this library. Controls the whole display.////// This object contains a smart pointer to the real implementation./// Cloning the display allows you to easily share the `Display` object throughout/// your program.#[cfg(feature = "glutin")]pub use backend::glutin::Display;#[cfg(feature = "glutin")]pub use backend::glutin::headless::Headless as HeadlessRenderer;/// Trait for objects that describe the capabilities of an OpenGL backend.pub trait CapabilitiesSource &#123; /// Returns the version of the backend. fn get_version(&amp;self) -&gt; &amp;version::Version; /// Returns the list of extensions that are supported. fn get_extensions(&amp;self) -&gt; &amp;context::ExtensionsList; /// Returns the capabilities of the backend. fn get_capabilities(&amp;self) -&gt; &amp;context::Capabilities;&#125;/// Trait for objects that are OpenGL objects.pub trait GlObject &#123; /// The type of identifier for this object. type Id; /// Returns the id of the object. fn get_id(&amp;self) -&gt; Self::Id;&#125;/// Handle to a shader or a program.// TODO: Handle(null()) is equal to Id(0)#[derive(PartialEq, Eq, Copy, Clone, Debug, Hash)]pub enum Handle &#123; /// A numeric identifier. Id(gl::types::GLuint), /// A `GLhandleARB`. Handle(gl::types::GLhandleARB),&#125;unsafe impl Send for Handle &#123;&#125;/// Internal trait for enums that can be turned into GLenum.trait ToGlEnum &#123; /// Returns the value. fn to_glenum(&amp;self) -&gt; gl::types::GLenum;&#125; Image]]></content>
+  </entry>
+</search>
