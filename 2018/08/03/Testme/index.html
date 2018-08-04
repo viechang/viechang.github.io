@@ -603,6 +603,17 @@
   <span class="footer-custom">Hosted by <a class="theme-link" href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
 
 
+<% if (theme.mermaid.enable) { %>
+  <script src='https://unpkg.com/mermaid@<%= theme.mermaid.version 
+%>/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({theme: 'forest'});
+    }
+  </script>
+<% } %>
+
+
         
 
 
