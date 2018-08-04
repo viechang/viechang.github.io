@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[什么才是最难的事情]]></title>
+    <url>%2F2018%2F08%2F04%2F%E4%BB%80%E4%B9%88%E6%89%8D%E6%98%AF%E6%9C%80%E9%9A%BE%E7%9A%84%E4%BA%8B%E6%83%85%2F</url>
+    <content type="text"><![CDATA[你有多专注，就有多专业。有时候并不是你水平太业余，而是你太贪心，精力太过分散，耗掉了你通往专业的潜力。李小龙曾说：我不怕练一万种招式的人，只怕一种招式练一万遍的人。专业不在于多，而在于精，往往这就需要枯燥地重复，和漫长地等待。工匠精神就是专注一件事，并做到极致。一件事无论你觉得多枯燥，一旦投入，立刻会变得生动起来，愉悦也就随之而来。心无旁骛能加快你前行的速度，只要你敢专注，再遥远的目标都能实现。网上一位家庭主妇，每天花上8小时刺绣，坚持了5年。她专注于出品美食刺绣，现在的作品几乎可以以假乱真，一针一线都十分精美。她也为此收获了大家的喜爱，甚至还被某世界品牌挑中，以艺术家的身份受邀参加展览。这个时代让专注能力越来越稀缺，所以掌握它的人就越容易脱颖而出。之前被大家盛赞的名牌大学保安也是如此。他中专毕业，为了成为一名大学老师，便一路过关斩将，考大专，攻本科，考研，花了将近10年时间。如今成为了一名大学法学副教授，同时还出版了2本法学教材，深受学生的喜爱。我还记得他在采访中说的那句话：专注很重要，因为它我才能不断坚持。什么是最难的事情？大概是沉下心做一件事，并且一做就是一辈子。保持专注，这个世界才会为你让路]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F08%2F04%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
