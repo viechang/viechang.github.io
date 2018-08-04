@@ -107,6 +107,15 @@
 
 
 
+  <script src='https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js'></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize("");
+    }
+  </script>
+
+
+
 
   <meta name="description" content="你有多专注，就有多专业。有时候并不是你水平太业余，而是你太贪心，精力太过分散，耗掉了你通往专业的潜力。李小龙曾说：我不怕练一万种招式的人，只怕一种招式练一万遍的人。专业不在于多，而在于精，往往这就需要枯燥地重复，和漫长地等待。工匠精神就是专注一件事，并做到极致。一件事无论你觉得多枯燥，一旦投入，立刻会变得生动起来，愉悦也就随之而来。心无旁骛能加快你前行的速度，只要你敢专注，再遥远的目标都能实现。网">
 <meta property="og:type" content="article">
@@ -591,16 +600,6 @@
   <span class="post-meta-divider">|</span>
   <span class="footer-custom">Hosted by <a class="theme-link" href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></span>
 
-
-<% if (theme.mermaid.enable) { %>
-  <script src='https://unpkg.com/mermaid@<%= theme.mermaid.version 
-%>/dist/mermaid.min.js'></script>
-  <script>
-    if (window.mermaid) {
-      mermaid.initialize({theme: 'forest'});
-    }
-  </script>
-<% } %>
 
 
         
