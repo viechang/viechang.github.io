@@ -117,17 +117,17 @@
 
 
 
-  <meta name="description" content="First Header Second Header     - [ ] Content Cell Content   Content Cell Content Cell      todo  sequenceDiagram    participant Alice    participant Bob    Alice-&amp;gt;&amp;gt;John: Hello John, how are y">
+  <meta name="description" content="First Header Second Header     - [ ] Content Cell Content   Content Cell Content Cell      todo    sequenceDiagram     Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you?     alt is sick     Bob-&amp;gt;&amp;gt;Alice: Not so g">
 <meta property="og:type" content="article">
 <meta property="og:title" content="读书计划">
 <meta property="og:url" content="http://yoursite.com/2018/08/04/读书计划/index.html">
 <meta property="og:site_name" content="画船听雨眠.">
-<meta property="og:description" content="First Header Second Header     - [ ] Content Cell Content   Content Cell Content Cell      todo  sequenceDiagram    participant Alice    participant Bob    Alice-&amp;gt;&amp;gt;John: Hello John, how are y">
+<meta property="og:description" content="First Header Second Header     - [ ] Content Cell Content   Content Cell Content Cell      todo    sequenceDiagram     Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you?     alt is sick     Bob-&amp;gt;&amp;gt;Alice: Not so g">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-04T13:53:08.924Z">
+<meta property="og:updated_time" content="2018-08-04T13:56:16.853Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="读书计划">
-<meta name="twitter:description" content="First Header Second Header     - [ ] Content Cell Content   Content Cell Content Cell      todo  sequenceDiagram    participant Alice    participant Bob    Alice-&amp;gt;&amp;gt;John: Hello John, how are y">
+<meta name="twitter:description" content="First Header Second Header     - [ ] Content Cell Content   Content Cell Content Cell      todo    sequenceDiagram     Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you?     alt is sick     Bob-&amp;gt;&amp;gt;Alice: Not so g">
 
 
 
@@ -388,7 +388,7 @@
                 
               
 
-              <time title="创建时间：2018-08-04 20:11:22 / 修改时间：21:53:08" itemprop="dateCreated datePublished" datetime="2018-08-04T20:11:22+08:00">2018-08-04</time>
+              <time title="创建时间：2018-08-04 20:11:22 / 修改时间：21:56:16" itemprop="dateCreated datePublished" datetime="2018-08-04T20:11:22+08:00">2018-08-04</time>
             
 
             
@@ -447,8 +447,16 @@
 <ul>
 <li style="list-style: none"><input type="checkbox"> todo</li>
 </ul>
-<p>sequenceDiagram<br>    participant Alice<br>    participant Bob<br>    Alice-&gt;&gt;John: Hello John, how are you?<br>    loop Healthcheck<br>        John-&gt;&gt;John: Fight against hypochondria<br>    end<br>    Note right of John: Rational thoughts <br>prevail…<br>    John–&gt;&gt;Alice: Great!<br>    John-&gt;&gt;Bob: How about you?<br>    Bob–&gt;&gt;John: Jolly good!</p>
-
+<pre class="mermaid">  sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+    Bob->>Alice: Not so good :(
+    else is well
+    Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+    Bob->>Alice: Thanks for asking
+    end</pre>
       
     </div>
 
